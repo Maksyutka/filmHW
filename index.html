@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>omdb</title>
+</head>
+
+<body>
+    <form class="form-block" action="#">
+        <input class="form-block__input" type="text" value="" name="film" id="film-name" placeholder="Название фильма">
+        <p><input name="type" type="radio" value="movie" class="FilmTypeMovie filmType" checked>Фильм</p>
+        <p><input name="type" type="radio" value="series" class="FilmTypeSeries filmType">Сериал</p>
+        <p><input name="type" type="radio" value="episode" class="FilmTypeEpisode filmType">Эпизод</p>
+        <button class="form-block__button" type="submit">Подтвердить</button>
+    </form>
+    <div class="film-info">
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
